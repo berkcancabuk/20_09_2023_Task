@@ -1,119 +1,37 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class ScrollControl : MonoBehaviour
+namespace View
 {
-    public ScrollRect scrollRect;
-    public float verticalNormalizedDownThresholdValue = 0;
-    public float verticalNormalizedUpThresholdValue = 1;
-    public int leftBoxId, rightBoxId;
-    private bool _isUpOrDown;
-    private bool _isUp;
-    private bool _isDown;
-    [SerializeField] private List<RectTransform> contenChildtList = new List<RectTransform>();
+    public class ScrollControl : MonoBehaviour
+    {
+        [SerializeField] private RectTransform content;
+        private int _indexDown=1;
+        private int _indexUp;
 
-    private void Start()
-    {
-        
-    }
-    private void Update()
-    {
-
-    }
-
-    public void Scroll()
-    {
-        ScrollController();
-    }
-    public void FirstPlaceEntered(int leftBoxId,int rightBoxId,bool isUpOrDown)
-    {
-       
-            this.leftBoxId = leftBoxId;
-            this.rightBoxId = rightBoxId;
-            _isUpOrDown = isUpOrDown;
-    }
-    public void ChangeContentChildPos(int LeftBoxGO, int RightBoxGO,int distanceY)
-    {
-        contenChildtList[LeftBoxGO].anchoredPosition += new Vector2(0, distanceY);
-        contenChildtList[RightBoxGO].anchoredPosition += new Vector2(0, distanceY);
-    }
-    public void ScrollController()
-    {
-        if (scrollRect.verticalNormalizedPosition <= verticalNormalizedDownThresholdValue)
+        /// <summary>
+        /// Infinite scroll view for 3 objects.
+        /// OnValueChange is also used in ScrollRect. 
+        /// </summary>
+        public void InfiniyScrollView()
         {
-            _isUp = true;
-            if (_isDown)
+            if (content.anchoredPosition.y > (600*_indexDown))
             {
-                if (leftBoxId == contenChildtList.Count-2)
-                {
-                    leftBoxId = 0;
-                    rightBoxId = 1;
-                }
-                else
-                {
-                    leftBoxId += 2;
-                    rightBoxId += 2;
-                }
-                _isDown = false;
+                content.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = 
+                    new Vector2(content.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition.x
+                        ,content.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition.y - (600*3));
+                content.transform.GetChild(0).gameObject.transform.SetAsLastSibling();
+                _indexDown++;
+                _indexUp--;
             }
-            if (!_isUpOrDown)
+            else if (content.anchoredPosition.y < -(600*_indexUp)-20)
             {
-                FirstPlaceEntered(0, 1, true);
+                content.transform.GetChild(2).GetComponent<RectTransform>().anchoredPosition = 
+                    new Vector2(content.transform.GetChild(2).GetComponent<RectTransform>().anchoredPosition.x
+                        ,content.transform.GetChild(2).GetComponent<RectTransform>().anchoredPosition.y + (600*3));
+                content.transform.GetChild(2).gameObject.transform.SetAsFirstSibling();
+                _indexUp++;
+                _indexDown--;
             }
-            ChangeContentChildPos(leftBoxId, rightBoxId, -2400);
-
-            if (leftBoxId == contenChildtList.Count - 2)
-            {
-                leftBoxId = 0;
-                rightBoxId = 1;
-                verticalNormalizedDownThresholdValue -= .25f;
-            }
-            else
-            {
-                leftBoxId += 2;
-                rightBoxId += 2;
-                verticalNormalizedDownThresholdValue -= .25f;
-
-            }
-            verticalNormalizedUpThresholdValue = verticalNormalizedDownThresholdValue + .25f;
-        }
-        else if (scrollRect.verticalNormalizedPosition > verticalNormalizedUpThresholdValue)
-        {
-            _isDown = true;
-            if (_isUp)
-            {
-                if (leftBoxId == 0)
-                {
-                    leftBoxId = 10;
-                    rightBoxId = 11;
-                }
-                else
-                {
-                    leftBoxId -= 2;
-                    rightBoxId -= 2;
-                }
-                _isUp = false;
-            }
-            if (!_isUpOrDown)
-            {
-                FirstPlaceEntered(contenChildtList.Count - 2, contenChildtList.Count - 1, true);
-            }
-            ChangeContentChildPos(leftBoxId, rightBoxId, +2400);
-            if (leftBoxId == 0)
-            {
-                leftBoxId = 10;
-                rightBoxId = 11;
-                verticalNormalizedUpThresholdValue += .25f;
-            }
-            else
-            {
-                leftBoxId -= 2;
-                rightBoxId -= 2;
-                verticalNormalizedUpThresholdValue += .25f;
-            }
-            verticalNormalizedDownThresholdValue = verticalNormalizedUpThresholdValue - .25f;
         }
     }
 }
