@@ -11,12 +11,12 @@ public class DragObject : MonoBehaviour
     private bool dragging = false;
     [Header("power")]
     private Vector3 _firstPosition;
-    private ObjectTriggerControl _objectTrigger;
+    private ObjectTriggerView _objectTrigger;
     private NavMeshObstacle _meshObstacle;
     private bool _isStartPositionCheck;
     private void Start()
     {
-        _objectTrigger = GetComponent<ObjectTriggerControl>();
+        _objectTrigger = GetComponent<ObjectTriggerView>();
         _meshObstacle = GetComponent<NavMeshObstacle>();
     }
 

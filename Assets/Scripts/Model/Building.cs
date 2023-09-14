@@ -1,35 +1,32 @@
 ﻿using System;
-using System.Collections;
-using UnityEngine;
+using Controller;
+using View.Interface;
 
 namespace Assets.Scripts.Model
 {
-    public class Building: ISelectable, IMovable
+    public class Building: IClickable
     {
-        private Vector3 position;
-        public Vector3 Position {
-            get { return position; }
+        private Pointer3D position;
+        public Pointer3D Position {
+            get => position;
             set
             {
                 // Only if the position changes
-                if (position != value)
+                if (!Equals(position, value))
                 {
                     // Set new position
                     position = value;
 
-                    // Dispatch the 'position changed' event
-                    var eventArgs = new PositionChangedEventArgs();
-                    OnPositionChanged(this, eventArgs);
                 }
             }
         }
 
+        public bool IsPositionSetOnce { get; set; }
+
+        public bool isTriggered { get; set; }
         public bool IsSelected { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         int _health { get; set; }
-
-        public event EventHandler<PositionChangedEventArgs> OnPositionChanged;
-        public event EventHandler<SelectedChangedEventArgs> OnSelectChanged;
-
+        
         public bool Movable()
         {
             return true;

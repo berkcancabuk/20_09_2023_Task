@@ -6,6 +6,6 @@ namespace Assets.Scripts.Controller.Factory
 {
     public interface IBuildingFactory
     {
-        public IBuildings GenerateWarrior(Vector3 position);
+        public IBuilding GenerateBuilding(Vector3 position);
     }
 }

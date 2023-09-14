@@ -3,6 +3,7 @@ using Assets.Scripts.View;
 using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts.View.Interface;
+using Controller;
 using UnityEngine;
 
 namespace Assets.Scripts.Controller
@@ -22,13 +23,13 @@ namespace Assets.Scripts.Controller
             view.OnAttack += HandleAttack;
 
             model.OnHealthChanged += HandleHealthChanged;
-            model.OnSelectChanged += HandleSelectionChanged;
             SyncPosition();
         }
 
         private void HandleClicked(object sender, EnemyClickedEventArgs e)
         {
             _model.IsSelected = true;
+            _view.OnClick();
         }
 
         private void HandleAttack(object sender, EnemyAttackEventArgs e)
@@ -44,14 +45,16 @@ namespace Assets.Scripts.Controller
             _view.Health = _model.Health;
         }
 
-        private void HandleSelectionChanged(object sender, SelectedChangedEventArgs e)
-        {
-            _view.OnClick();
-        }
-
         private void SyncPosition()
         {
-            _view.Position = _model.Position;
+            if (_model.Position != null)
+            {
+                _view.Position = _model.Position.ConvertVector3D();
+            }
+            else
+            {
+                _model.Position = Pointer3D.ConvertVectorToPointer3D(_view.Position);
+            }
         }
     }
 }

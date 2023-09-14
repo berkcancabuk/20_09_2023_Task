@@ -1,8 +1,13 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using Assets.Scripts.Controller.Factory;
+using Controller;
+using Model.Interface;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using View;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,8 +19,15 @@ public class UIManager : MonoBehaviour
     public List<Soldiers> soldiers = new List<Soldiers>();
     public List<GameObject> soldierBarrack = new List<GameObject>();
     public List<GameObject> powerPlant = new List<GameObject>();
+    private IBuildingFactory soldierBarrackFactory;
+    private IBuildingFactory powerPlantFactory;
+    private readonly List<SoldierBarrackController> _soldierBarrackControllers = new();
+    private readonly List<PowerPlantController> _powerPlantControllers = new();
     private void Awake()
     {
+        soldierBarrackFactory = new SoldierBarrackFactory();
+        powerPlantFactory = new PowerPlantFactory();
+        
         if (instance != null)
         {
             Destroy(this);
@@ -26,9 +38,42 @@ public class UIManager : MonoBehaviour
             instance = this;
         }
     }
+
     public void InstantiateSquareObject(GameObject obj)
     {
-       Instantiate(obj, new Vector3(ObjScale(obj)[0], ObjScale(obj)[1],-.1f), Quaternion.identity);
+        var middleOfScreen = new Vector3(16f, 14, -0.1f);
+        var go = Instantiate(obj, middleOfScreen, Quaternion.identity);
+       switch (go.tag)
+       {
+           case("SoldierBarrack"):
+           {
+               var barrackBuilding = soldierBarrackFactory.GenerateBuilding(middleOfScreen);
+               ISoldierBarrackObjectView soldierBarrackObjectView = go.GetComponent<SoldierBarrackObjectView>();
+               SoldierBarrackController soldierBarrackController = new SoldierBarrackController(barrackBuilding as ISoldierBarracks,soldierBarrackObjectView, this);
+               soldierBarrackObjectView.OnInstantiateObj();
+               _soldierBarrackControllers.Add(soldierBarrackController);
+                break;
+            }
+           case("PowerPlant"):
+           {
+               
+               var powerBuilding = powerPlantFactory.GenerateBuilding(middleOfScreen);
+               IPowerPlantView powerPlantView = go.GetComponent<IPowerPlantView>();
+               PowerPlantController powerPlantController = new PowerPlantController(powerBuilding as IPowerPlant, powerPlantView);
+               _powerPlantControllers.Add(powerPlantController);
+               break;
+           } 
+           // case("Barricade"):
+           // {
+           //     
+           //     var barrackBuilding = soldierBarrackFactory.GenerateBuilding(middleOfScreen);
+           //     ISoldierBarrackView soldierBarrackView = go.GetComponent<SoldierBarrackView>();
+           //     SoldierBarrackController soldierBarrackController = new SoldierBarrackController(barrackBuilding as ISoldierBarracks,soldierBarrackView);
+           //     _soldierBarrackControllers.Add(soldierBarrackController);
+           //     break;
+           // } 
+       }
+
     }
     public List<float> ObjScale(GameObject GO)
     {
@@ -59,15 +104,16 @@ public class UIManager : MonoBehaviour
             buildings[i].UI.SetActive(false);
         }
     }
-    public void OpenSoldierBarrackPanel()
+    public void OpenSoldierBarrackPanel(int level1SoldierCount, int level2SoldierCount, int level3SoldierCount)
     {
+        
         UIObjectPanelClose();
         Information.image.sprite = buildings[0].image;
         Information.name.text = buildings[0].name;
         buildings[0].UI.SetActive(true);
-        buildings[0].level1Count.text = "Level 1: " + GameManager.instance.ownedSoldiersLevel1;
-        buildings[0].level2Count.text = "Level 2: " + GameManager.instance.ownedSoldiersLevel2;
-        buildings[0].level3Count.text = "Level 3: " + GameManager.instance.ownedSoldiersLevel3;
+        buildings[0].level1Count.text = "Level 1: " + level1SoldierCount;
+        buildings[0].level2Count.text = "Level 2: " + level2SoldierCount;
+        buildings[0].level3Count.text = "Level 3: " + level3SoldierCount;
         
     }
     public void OpenPowerPlantPanel()
@@ -103,19 +149,19 @@ public class UIManager : MonoBehaviour
 
     public void BoughtSoldierBarrack()
     {
-        for (int i = 0; i < soldierBarrack.Count; i++)
-        {
-            soldierBarrack[i].transform.GetChild(1).gameObject.SetActive(true);
-            soldierBarrack[i].transform.GetComponent<Button>().enabled = false;
-        }
+        // for (int i = 0; i < soldierBarrack.Count; i++)
+        // {
+        //     soldierBarrack[i].transform.GetChild(1).gameObject.SetActive(true);
+        //     soldierBarrack[i].transform.GetComponent<Button>().enabled = false;
+        // }
     }
     public void BoughtPowerPlant()
     {
-        for (int i = 0; i < powerPlant.Count; i++)
-        {
-            powerPlant[i].transform.GetChild(1).gameObject.SetActive(true);
-            powerPlant[i].transform.GetComponent<Button>().enabled = false;
-        }
+        // for (int i = 0; i < powerPlant.Count; i++)
+        // {
+        //     powerPlant[i].transform.GetChild(1).gameObject.SetActive(true);
+        //     powerPlant[i].transform.GetComponent<Button>().enabled = false;
+        // }
     }
     
 }

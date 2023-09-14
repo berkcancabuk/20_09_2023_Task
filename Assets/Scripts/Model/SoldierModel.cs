@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections;
-using UnityEngine;
+using Controller;
+using View.Interface;
 
 
 namespace Assets.Scripts.Model
@@ -9,18 +9,17 @@ namespace Assets.Scripts.Model
     {
         private bool _selected = false;
 
-        public SoldierModel(int soldierLevel, int health, int attack, Vector3 position) : base(health, attack)
+        public SoldierModel(int soldierLevel, int health, int attack, Pointer3D position) : base(health, attack)
         {
             _position = position;
             _soldierLevel = soldierLevel;
         }
 
-        public event EventHandler<PositionChangedEventArgs> OnPositionChanged = (sender, e) => { };
         public event EventHandler<SelectedChangedEventArgs> OnSelectChanged = (sender, e) => { };
 
-        private Vector3 _position;
+        private Pointer3D _position;
 
-        public Vector3 Position
+        public Pointer3D Position
         {
             get => _position;
             set
@@ -31,14 +30,15 @@ namespace Assets.Scripts.Model
                     // Set new position
                     _position = value;
 
-                    // Dispatch the 'position changed' event
-                    var eventArgs = new PositionChangedEventArgs();
-                    OnPositionChanged(this, eventArgs);
                 }
             }
         }
 
+        public bool IsPositionSetOnce { get; set; }
+
         private int _soldierLevel { get; set; }
+
+        public bool isTriggered { get; set; }
 
         public bool IsSelected
         {
@@ -59,11 +59,6 @@ namespace Assets.Scripts.Model
         public bool Movable()
         {
             return false;
-        }
-
-        public void berkcan()
-        {
-            Debug.Log("ahmet");
         }
     }
 }

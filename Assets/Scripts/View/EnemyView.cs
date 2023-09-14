@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using UnityEngine;
 using System;
-using UnityEngine.UI;
-using Assets.Scripts.Controller.Factory;
+using Controller;
+using View.Interface;
 
 namespace Assets.Scripts.View
 {
     public class EnemyAttackEventArgs : EventArgs
     {
-        public Vector3 SoldierPosition { get; set; }
+        public Pointer3D SoldierPosition { get; set; }
 
-        public EnemyAttackEventArgs(Vector2 soldierPosition)
+        public EnemyAttackEventArgs(Pointer3D soldierPosition)
         {
             SoldierPosition = soldierPosition;
         }
@@ -97,7 +97,7 @@ namespace Assets.Scripts.View
             if (collision.CompareTag("Soldier"))
             {
                 var soldier = collision.transform.gameObject;
-                var eventArgs = new EnemyAttackEventArgs(soldier.transform.position);
+                var eventArgs = new EnemyAttackEventArgs(Pointer3D.ConvertVectorToPointer3D(soldier.transform.position));
 
                 StartCoroutine(EnemyAttack(eventArgs));
             }

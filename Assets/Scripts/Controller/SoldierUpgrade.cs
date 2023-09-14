@@ -35,19 +35,19 @@ public class SoldierUpgrade : MonoBehaviour
             GetComponent<Button>().enabled = false;
         }
     }
-    public void CostRefresh()
-    {
-        if (powerPlantObject.energy > gameManager.soldierLevel * 5)
-        {
-            cost.color = Color.green;
-            cost.text = "COST : " + (gameManager.soldierLevel * 5);
-        }
-        else
-        {
-            cost.color = Color.red;
-            cost.text = "COST : " + (gameManager.soldierLevel * 5);
-        }
-    }
+    // public void CostRefresh()
+    // {
+    //     if (powerPlantObject.energy > gameManager.soldierLevel * 5)
+    //     {
+    //         cost.color = Color.green;
+    //         cost.text = "COST : " + (gameManager.soldierLevel * 5);
+    //     }
+    //     else
+    //     {
+    //         cost.color = Color.red;
+    //         cost.text = "COST : " + (gameManager.soldierLevel * 5);
+    //     }
+    // }
     public void SoldierLevel()
     {
 

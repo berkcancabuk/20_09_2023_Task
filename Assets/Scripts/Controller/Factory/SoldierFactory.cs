@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using UnityEngine;
-using Assets.Scripts.Model;
+﻿using Assets.Scripts.Model;
 using Assets.Scripts.Controller.Exception;
-using Vector2 = System.Numerics.Vector2;
+using Controller;
 
 namespace Assets.Scripts.Controller.Factory
 {
@@ -12,7 +10,7 @@ namespace Assets.Scripts.Controller.Factory
         private readonly SoldierLevelTwoFactory _soldierLevelTwoFactory = new();
         private readonly SoldierLevelThreeFactory _soldierLevelThreeFactory = new();
 
-        public ISoldier GenerateSoldier(int level, Vector3 position)
+        public ISoldier GenerateSoldier(int level, Pointer3D position)
         {
             return level switch
             {

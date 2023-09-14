@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using View.Interface;
 
 namespace Assets.Scripts.Model
 {
-    public interface IEnemy: IWarrior,ISelectable
+    public interface IEnemy: IWarrior,IClickable
     {
-        Vector3 Position { get; }
     }
 }

@@ -1,8 +1,7 @@
 ﻿using Assets.Scripts.Model;
 using Assets.Scripts.View;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Controller;
 
 namespace Assets.Scripts.Controller
 {
@@ -24,27 +23,21 @@ namespace Assets.Scripts.Controller
 			view.OnClicked += HandleClicked;
 			view.OnAttack += HandleAttack;
 
-			model.OnPositionChanged += HandlePositionChanged;
 			model.OnHealthChanged += HandleHealthChanged;
-			model.OnSelectChanged += HandleSelectionChanged;
 			SyncPosition();
 		}
 
 		private void HandleClicked(object sender, SoldierClickedEventArgs e)
 		{
 			model.IsSelected = true;
+			view.OnClick();
 		}
 
 		private void HandleAttack(object sender, SoldierAttackEventArgs e)
 		{
-			Vector3 enemyPosition = e._enemyPosition.Value;
+			Pointer3D enemyPosition = e._enemyPosition;
 			List<IEnemy> triggeredEnemiesModel = enemies.FindAll(enemy => enemy.Position == enemyPosition);
 			triggeredEnemiesModel.ForEach(enemyModel => enemyModel.Health -= model.getAttack());
-		}
-
-		private void HandlePositionChanged(object sender, PositionChangedEventArgs e)
-		{
-			SyncPosition();
 		}
 
 		private void HandleHealthChanged(object sender, WarriorHealthChangedEventArgs e)
@@ -52,14 +45,16 @@ namespace Assets.Scripts.Controller
 			view.Health = model.Health;
 		}
 
-		private void HandleSelectionChanged(object sender, SelectedChangedEventArgs e)
-		{
-			view.OnClick();
-		}
-
 		private void SyncPosition()
 		{
-			view.Position = model.Position;
+			if (model.Position != null)
+			{
+				view.Position = model.Position.ConvertVector3D();
+			}
+			else
+			{
+				model.Position = Pointer3D.ConvertVectorToPointer3D(view.Position);
+			}
 		}
 	}
 }

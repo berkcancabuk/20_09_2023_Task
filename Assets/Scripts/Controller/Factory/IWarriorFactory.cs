@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using UnityEngine;
-using Assets.Scripts.Model;
+﻿using Assets.Scripts.Model;
+using Controller;
 
 namespace Assets.Scripts.Controller.Factory
 {
     public interface IWarriorFactory
     {
-        public IWarrior GenerateWarrior(Vector3 position);
+        public IWarrior GenerateWarrior(Pointer3D position);
     }
 }

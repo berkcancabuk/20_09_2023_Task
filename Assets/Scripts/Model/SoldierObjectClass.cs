@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 public class SoldierObjectClass : MonoBehaviour
 {
@@ -14,10 +13,6 @@ public class SoldierObjectClass : MonoBehaviour
     {
         soldierSpawn = SoldierSpawnPoint.instance;
         gameManager = GameManager.instance;
-    }
-    private void Update()
-    {
-       
     }
     public IEnumerator SoldierAttack()
     {

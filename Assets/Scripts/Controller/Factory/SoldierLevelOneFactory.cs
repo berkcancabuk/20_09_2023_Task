@@ -1,12 +1,11 @@
 ﻿using Assets.Scripts.Model;
-using System.Collections;
-using UnityEngine;
+using Controller;
 
 namespace Assets.Scripts.Controller.Factory
 {
     public class SoldierLevelOneFactory : IWarriorFactory
     {
-        public IWarrior GenerateWarrior(Vector3 position)
+        public IWarrior GenerateWarrior(Pointer3D position)
         {
             return new SoldierModel(1, 10, 2, position);
         }

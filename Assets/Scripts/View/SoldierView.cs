@@ -3,6 +3,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using Assets.Scripts.Controller.Factory;
+using Controller;
 
 namespace Assets.Scripts.View
 {
@@ -13,8 +14,8 @@ namespace Assets.Scripts.View
 
     public class SoldierAttackEventArgs : EventArgs
     {
-        public Vector3? _enemyPosition { get; set; }
-        public SoldierAttackEventArgs(Vector2 EnemyPosition)
+        public Pointer3D _enemyPosition { get; set; }
+        public SoldierAttackEventArgs(Pointer3D EnemyPosition)
         {
             _enemyPosition = EnemyPosition;
         }
@@ -26,7 +27,7 @@ namespace Assets.Scripts.View
         event EventHandler<SoldierClickedEventArgs> OnClicked;
         event EventHandler<SoldierAttackEventArgs> OnAttack;
 
-        Vector3 Position { set; }
+        Vector3 Position { get; set; }
         int Health { get; set; }
 
         void OnClick();
@@ -46,7 +47,11 @@ namespace Assets.Scripts.View
         public int soldierCount;
         [SerializeField] private GameObject _enemy;
         bool _isExitTrigger = false;
-        public Vector3 Position { set { transform.position = value; } }
+        public Vector3 Position
+        {
+            get => transform.position;
+            set { transform.position = value; }
+        }
 
         public int Health { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
@@ -88,7 +93,7 @@ namespace Assets.Scripts.View
             if (collision.tag == "Enemy")
             {
                 _enemy = collision.transform.gameObject;
-                var eventArgs = new SoldierAttackEventArgs(_enemy.transform.position);
+                var eventArgs = new SoldierAttackEventArgs(Pointer3D.ConvertVectorToPointer3D(_enemy.transform.position));
                
                 StartCoroutine(SoldierAttack(eventArgs));
             }

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections;
-using UnityEngine;
+﻿using Assets.Scripts.Model;
+using View.Interface;
 
-namespace Assets.Scripts.Model
+namespace Model.Interface
 {
    
-    public interface IPowerPlant: IBuildings,ISelectable
+    public interface IPowerPlant: IBuilding, IClickable
     {
-        Vector3 Position { get; }
     }
 
    

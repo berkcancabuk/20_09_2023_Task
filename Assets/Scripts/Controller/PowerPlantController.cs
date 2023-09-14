@@ -1,45 +1,38 @@
 ﻿using Assets.Scripts.Model;
 using Assets.Scripts.View;
-using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.View.Interface;
-using UnityEngine;
+using Model.Interface;
+using View;
 
-namespace Assets.Scripts.Controller
+namespace Controller
 {
-    public class PowerPlantController : IEnemyController
+    public class PowerPlantController : AbstractClickableObjectController
     {
         private readonly IPowerPlant _model;
         private readonly IPowerPlantView _view;
 
-        public PowerPlantController(IPowerPlant model, IPowerPlantView view)
+        public PowerPlantController(IPowerPlant model, IPowerPlantView view) : base(model, view)
         {
             _model = model;
             _view = view;
-            view.OnClicked += HandleClicked;
             model.OnHealthChanged += HandleHealthChanged;
-            model.OnSelectChanged += HandleSelectionChanged;
             SyncPosition();
         }
-
-        private void HandleClicked(object sender, SoldierBarrackClickedEventArgs e)
-        {
-            _model.IsSelected = true;
-        }
-
+        
         private void HandleHealthChanged(object sender, BuildingHealthChangedEventArgs e)
         {
             _view.Health = _model.Health;
         }
-
-        private void HandleSelectionChanged(object sender, SelectedChangedEventArgs e)
-        {
-            _view.OnClick();
-        }
         
         private void SyncPosition()
         {
-            _view.Position = _model.Position;
+            if (_model.Position != null)
+            {
+                _view.Position = _model.Position.ConvertVector3D();
+            }
+            else
+            {
+                _model.Position = Pointer3D.ConvertVectorToPointer3D(_view.Position);
+            }
         }
     }
 }

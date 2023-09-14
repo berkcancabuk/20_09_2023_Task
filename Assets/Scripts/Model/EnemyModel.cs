@@ -1,23 +1,22 @@
 ﻿using System;
-using System.Collections;
-using UnityEngine;
+using Controller;
+using View.Interface;
 
 namespace Assets.Scripts.Model
 {
     public class EnemyModel : Warrior, IEnemy
     {
-        private readonly Vector3 _position;
+        private readonly Pointer3D _position;
 
-        public EnemyModel(int health, int attack, Vector3 position) : base(health, attack)
+        public EnemyModel(int health, int attack, Pointer3D position) : base(health, attack)
         {
             _position = position;
         }
 
-        public Vector3 Position => _position;
-
-
         public event EventHandler<SelectedChangedEventArgs> OnSelectChanged = (sender, e) => { };
         private bool _selected = false;
+
+        public bool isTriggered { get; set; }
 
         public bool IsSelected
         {
@@ -29,6 +28,9 @@ namespace Assets.Scripts.Model
                 OnSelectChanged(this, eventArgs);
             }
         }
+
+        public Pointer3D Position { get; set; }
+        public bool IsPositionSetOnce { get; set; }
 
         public override WarriorType GetWarriorType()
         {

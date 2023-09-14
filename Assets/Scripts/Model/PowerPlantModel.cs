@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using Assets.Scripts.Model;
+using Model.Interface;
 using UnityEngine;
 
-namespace Assets.Scripts.Model
+namespace Model
 {
-    public class PowerPlantModel : BuildingsModel, IPowerPlant
+    public class PowerPlantModel : BuildingModel, IPowerPlant
     {
         private readonly Vector3 _position;
 
@@ -14,20 +14,8 @@ namespace Assets.Scripts.Model
         }
 
         public Vector3 Position => _position;
-
-        public event EventHandler<SelectedChangedEventArgs> OnSelectChanged = (sender, e) => { };
-        private bool _selected = false;
-
-        public bool IsSelected
-        {
-            get => _selected;
-            set
-            {
-                _selected = true;
-                var eventArgs = new SelectedChangedEventArgs();
-                OnSelectChanged(this, eventArgs);
-            }
-        }
+        
+        
         public override BuildingType GetBuildingType()
         {
             return BuildingType.PowerPlant;

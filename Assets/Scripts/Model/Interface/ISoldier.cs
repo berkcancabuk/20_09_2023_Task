@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Model
 {
-    public interface ISoldier: IMovable,ISelectable,IWarrior
+    public interface ISoldier: IClickable,IWarrior
     {
 
     }

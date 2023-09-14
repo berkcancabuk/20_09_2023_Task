@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections;
-using UnityEngine;
+﻿using Assets.Scripts.Model;
 
-namespace Assets.Scripts.Model
+namespace Model.Interface
 {
     public class OnInstantiateSpawnPoint
     {
     }
-    public interface ISoldierBarracks: IBuildings,ISelectable
+    public interface ISoldierBarracks: IBuilding, IClickable
     {
-        Vector3 Position { get; }
         public bool IsInstantiate { get; set; }
-        event EventHandler<OnInstantiateSpawnPoint> OnInstantiate;
     }
 
    
