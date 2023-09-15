@@ -15,17 +15,17 @@ public class PathfindingController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Tıklanan noktanın dünya koordinatlarını al
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+            RaycastHit2D hit; // RaycastHit2D kullanılacak
 
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity))
             {
-                // Tıklanan noktanın koordinatlarını al
+                hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+    
                 Vector3 targetPosition = hit.point;
 
-                // Hedef pozisyonunu 1x1 boyutundaki küpün merkezine ayarla
-                targetPosition += Vector3.up * 0.5f;
+                // Hedef pozisyonunu 2D düzlemde ayarla (z bileşenini sıfır yap)
+                targetPosition.z = 0f;
 
                 // A* yol bulma algoritmasını kullanarak objeyi hedefe gönder
                 FindPath(transform.position, targetPosition);
@@ -91,14 +91,7 @@ public class PathfindingController : MonoBehaviour
         }
     }
 
-    private List<Node> GetNeighbors(Node node)
-    {
-        List<Node> neighbors = new List<Node>();
-
-        // Burada düğümlerin komşularını hesaplamak için uygun kod eklenmelidir.
-
-        return neighbors;
-    }
+    
 
     private List<Vector3> RetracePath(Node startNode, Node endNode)
     {
@@ -117,13 +110,84 @@ public class PathfindingController : MonoBehaviour
 
     private int GetDistance(Node nodeA, Node nodeB)
     {
-        // Burada iki düğüm arasındaki mesafeyi hesaplamak için uygun kod eklenmelidir.
-        return 0;
+        // İki düğüm arasındaki Manhattan mesafesini hesaplayın (dört yönlü hareket için).
+        int deltaX = Mathf.Abs((int)nodeA.position.x - (int)nodeB.position.x);
+        int deltaY = Mathf.Abs((int)nodeA.position.y - (int)nodeB.position.y);
+
+        return deltaX + deltaY;
     }
 
+    private List<Node> GetNeighbors(Node node)
+    {
+        List<Node> neighbors = new List<Node>();
+
+        // Dört yönlü komşu düğümleri ekleyin (sağ, sol, yukarı, aşağı).
+        // Dikkat edilmesi gereken, engelleri ve oyun alanının sınırlarını kontrol etmektir.
+        // Aşağıdaki kod, düğümlerin koordinatlarını düzgün bir şekilde hesaplar.
+
+        Vector3[] neighborOffsets = new Vector3[]
+        {
+            new Vector3(1, 0, 0),  // Sağ
+            new Vector3(-1, 0, 0), // Sol
+            new Vector3(0, 1, 0),  // Yukarı
+            new Vector3(0, -1, 0)  // Aşağı
+        };
+
+        foreach (Vector3 offset in neighborOffsets)
+        {
+            Vector3 neighborPos = node.position + offset;
+
+            // Eğer komşu pozisyon oyun alanının sınırları içindeyse ve engel değilse, komşu listesine ekleyin.
+            if (!IsPositionOutOfBounds(neighborPos) && !IsPositionObstacle(neighborPos))
+            {
+                neighbors.Add(new Node(neighborPos));
+            }
+        }
+
+        return neighbors;
+    }
+
+    private bool IsPositionOutOfBounds(Vector3 position)
+    {
+        // Oyun alanının sınırlarını burada kontrol edin.
+        // Örneğin, eğer oyun alanınız bir dikdörtgen sınırla sınırlanmışsa, burada kontrol edebilirsiniz.
+        // Örneğin, sınırlar dışında ise true, içinde ise false dönmelisiniz.
+        // Sınırların nasıl tanımlandığınıza bağlı olarak bu kodu uyarlamalısınız.
+        return false; // Örnek olarak her zaman false döndürüldü.
+    }
+
+    private bool IsPositionObstacle(Vector3 position)
+    {
+        // Verilen pozisyonun engel olup olmadığını burada kontrol edin.
+        // Verilen pozisyonda bir engel varsa true, yoksa false dönmelisiniz.
+        // Engellerin tanımlandığı yere bağlı olarak bu kodu uyarlamalısınız.
+    
+        Collider2D hitCollider = Physics2D.OverlapCircle(position, 0.2f, obstacleLayer);
+
+        return hitCollider != null;
+    }
     private void MoveObjectAlongPath(List<Vector3> path)
     {
-        // Burada objenin yolu izlemesini sağlayacak kod eklenmelidir.
+        if (path.Count == 0)
+        {
+            // Hiç yol yoksa veya hedefe ulaşıldıysa, hareketi durdurabilirsiniz.
+            return;
+        }
+
+        // İlk hedef pozisyonunu alın
+        Vector3 targetPosition = path[0];
+
+        // Objeyi hedefe doğru hareket ettirin (örneğin, Lerp kullanarak)
+        float moveSpeed = 5f; // Objenin hareket hızı
+        float step = moveSpeed * Time.deltaTime;
+
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
+
+        // Eğer obje hedef pozisyona ulaştıysa, hedefi listeden çıkarın
+        if (transform.position == targetPosition)
+        {
+            path.RemoveAt(0);
+        }
     }
 }
 

@@ -21,7 +21,7 @@ namespace Controller
         private void HandleTriggerEventChange(object sender, TriggeredEventArg e)
         {
             _model.isTriggered = e.IsTriggered;
-            if (e.IsTriggered && _model.IsSelected)
+            if (e.IsTriggered && _model.IsSelected && !_model.IsPositionSetOnce)
             {
                 _view.ChangeColor( UnityEngine.Color.red);
             }

@@ -48,7 +48,6 @@
      <Compile Include="Assets\Scripts\Model\Interface\IWarrior.cs" />
      <Compile Include="Assets\Scripts\View\Interface\IEnemyController.cs" />
      <Compile Include="Assets\Scripts\PathfindingController.cs" />
-     <Compile Include="Assets\Scripts\Controller\MovementController2D.cs" />
      <Compile Include="Assets\Scripts\View\PowerPlantView.cs" />
      <Compile Include="Assets\Scripts\Controller\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Model\PowerPlantModel.cs" />
@@ -77,7 +76,6 @@
      <Compile Include="Assets\Scripts\Model\Interface\ISoldierBarracks.cs" />
      <Compile Include="Assets\Scripts\Model\EnemyObjectClass.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\IBuildingFactory.cs" />
-     <Compile Include="Assets\Scripts\View\MoveOnTilemap.cs" />
      <Compile Include="Assets\Scripts\Controller\SoldierBarrackController.cs" />
      <Compile Include="Assets\Scripts\View\ScrollControl.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\IWarriorFactory.cs" />
@@ -99,6 +97,7 @@
      <Compile Include="Assets\Scripts\Controller\Factory\SoldierLevelThreeFactory.cs" />
      <Compile Include="Assets\Scripts\View\EnemyView.cs" />
      <Compile Include="Assets\Scripts\Model\UIObject.cs" />
+     <Compile Include="Assets\Scripts\View\Nodes.cs" />
      <Compile Include="Assets\Scripts\Model\Building.cs" />
      <Compile Include="Assets\Scripts\View\MovableObjectView.cs" />
      <Compile Include="Assets\Scripts\View\ObjectTriggerView.cs" />
@@ -106,11 +105,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
-     <Folder Include="Assets\DownloadedPackages\NavMeshPlus-master" />
-     <Folder Include="Assets\DownloadedPackages\Miniature Army 2D V.1\Scene" />
-     <Folder Include="Assets\DownloadedPackages" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
-     <None Include="Assets\DownloadedPackages\NavMeshPlus-master\package.json" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Scripts\Model\Interface" />
      <Folder Include="Assets\Scripts\Controller\Factory" />
@@ -119,25 +114,21 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
-     <Folder Include="Assets\DownloadedPackages\Miniature Army 2D V.1\Prefab" />
      <Folder Include="Assets\Prefabs\NewSoldiers" />
-     <Folder Include="Assets\Aoiti\Example\Tilemap" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Scripts\View\Interface" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Scripts\Controller" />
-     <Folder Include="Assets\Aoiti\Example\2DGrid" />
+     <Folder Include="Assets\Pallets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Scripts\Controller\Exception" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <Folder Include="Assets\Aoiti\Plugins" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets\DownloadedPackages\Miniature Army 2D V.1\Sprite" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <Folder Include="Assets\DownloadedPackages\NavMeshPlus-master\NavMeshComponents" />
+     <Folder Include="Assets\Tiles" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
@@ -145,13 +136,9 @@
      <Folder Include="Assets\Scripts\Model" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Sprites" />
-     <Folder Include="Assets\DownloadedPackages\Miniature Army 2D V.1\Original artwork" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Scripts\View" />
-     <Folder Include="Assets\DownloadedPackages\Miniature Army 2D V.1" />
-     <Folder Include="Assets\DownloadedPackages\NavMeshPlus-master\Unity" />
      <Folder Include="Assets\Scripts" />
-     <Folder Include="Assets\Aoiti" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -160,9 +147,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Scenes\SampleScene" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
-     <Folder Include="Assets\DownloadedPackages\NavMeshPlus-master\Gizmos" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <Folder Include="Assets\Aoiti\Example" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -415,14 +400,14 @@
      <Reference Include="Unity.Burst.Cecil.Mdb">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
+     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Pathfinding">
-     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Assets\Aoiti\Plugins\Pathfinding.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
@@ -859,14 +844,11 @@
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.2D.Path.Editor">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.Psdimporter.Editor">
-     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -880,14 +862,17 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.001">
-     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:\Users\berkcan.cabuk\Documents\GitHub\SolidPrinciplesAndImplementationWithOOP\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -933,13 +918,17 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshPlusEditor.csproj">
-      <Project>{9f799e34-9e68-d887-b340-7ec772244329}</Project>
-      <Name>NavMeshPlusEditor</Name>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{dfdf311b-e8f9-8130-47e1-7c0f94593a6f}</Project>
+      <Name>PackageToolsEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="NavMeshPlus.csproj">
-      <Project>{766677c4-edb2-e8a5-79dd-79ee533cd52f}</Project>
-      <Name>NavMeshPlus</Name>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{8bd61284-29bc-219c-9295-78b158116ad8}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{e7d60402-09ba-949e-4e93-bb44578f75bc}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
 
     public void InstantiateSquareObject(GameObject obj)
     {
-        var middleOfScreen = new Vector3(16f, 14, -0.1f);
+        var middleOfScreen = Vector3.zero;
         var go = Instantiate(obj, middleOfScreen, Quaternion.identity);
        switch (go.tag)
        {
