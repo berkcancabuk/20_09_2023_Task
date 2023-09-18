@@ -44,26 +44,25 @@ namespace Pathfinding
         void Update()
         {
             if (target != null && ai != null) ai.destination = target.position;
+            if (!GetComponent<AIDestinationSetter>().enabled) return;
+            if (!Input.GetMouseButtonDown(1)) return;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit; // RaycastHit2D kullanılacak
 
-            if (Input.GetMouseButtonDown(0))
-            {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit2D hit; // RaycastHit2D kullanılacak
+            if (!Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, layerMask)) return;
+            hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity,layerMask);
+            target = hit.transform;
+            GetComponent<SpriteRenderer>().color = Color.black;
 
-                if (Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity,layerMask))
-                {
-                    hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity,layerMask);
-                    Vector3 targetPosition = hit.point;
-                    target = hit.transform;
-                }
-            }
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject == target.gameObject)
+            if (!GetComponent<AIDestinationSetter>().enabled&& other.gameObject!= null) return;
+            if (other.gameObject == target.gameObject )
             {
                 target = null;
+                GetComponent<AIDestinationSetter>().enabled = false;
             }
         }
     }

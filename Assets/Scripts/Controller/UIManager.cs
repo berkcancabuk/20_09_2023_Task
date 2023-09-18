@@ -43,6 +43,7 @@ public class UIManager : MonoBehaviour
     {
         var middleOfScreen = Vector3.zero;
         var go = Instantiate(obj, middleOfScreen, Quaternion.identity);
+        
        switch (go.tag)
        {
            case("SoldierBarrack"):
@@ -73,7 +74,6 @@ public class UIManager : MonoBehaviour
            //     break;
            // } 
        }
-
     }
     public List<float> ObjScale(GameObject GO)
     {

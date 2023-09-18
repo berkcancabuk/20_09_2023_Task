@@ -16,7 +16,6 @@ namespace Controller
         private int soldierLevel2Count = 0;
         private int soldierLevel3Count = 0;
         private UIManager _uiManager;
-        private Pointer3D newlyCreatedSoldierPosition = new Pointer3D(-0.375f, -0.625f, 0f);
         public SoldierBarrackController(ISoldierBarracks model, ISoldierBarrackObjectView objectView, UIManager uiManager) : base(model, objectView)
         {
             _model = model;

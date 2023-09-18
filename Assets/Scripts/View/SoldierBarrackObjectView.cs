@@ -30,7 +30,7 @@ namespace View
 
     public class SoldierBarrackObjectView : MovableObjectView, ISoldierBarrackObjectView
     {
-
+        
         public List<GameObject> soldiers = new();
         private TileListClass _tileList;
         [SerializeField] private TextMeshProUGUI level1Text; 

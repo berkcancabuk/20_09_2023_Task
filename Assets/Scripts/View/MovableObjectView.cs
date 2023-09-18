@@ -76,22 +76,29 @@ namespace View
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            isTriggered = true;
-            var eventArgs = new TriggeredEventArg
+            if (other.CompareTag("Obstacle"))
             {
-                IsTriggered = isTriggered
-            };
-            OnTriggeredEvent(this, eventArgs);
+                isTriggered = true;
+                var eventArgs = new TriggeredEventArg
+                {
+                    IsTriggered = isTriggered
+                };
+                OnTriggeredEvent(this, eventArgs);
+            }
         }
 
-        private void OnTriggerExit2D(Collider2D collision)
+        private void OnTriggerExit2D(Collider2D other)
         {
-            isTriggered = false;
-            var eventArgs = new TriggeredEventArg
+            if (other.CompareTag("Obstacle"))
             {
-                IsTriggered = isTriggered
-            };
-            OnTriggeredEvent(this, eventArgs);
+                isTriggered = false;
+                var eventArgs = new TriggeredEventArg
+                {
+                    IsTriggered = isTriggered
+                };
+                OnTriggeredEvent(this, eventArgs);
+            }
+
         }
         
         public void SetToDefaultColor()

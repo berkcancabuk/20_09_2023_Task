@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using Pathfinding;
 using UnityEngine;
 public class SoldierObjectClass : MonoBehaviour
 {
@@ -42,5 +44,19 @@ public class SoldierObjectClass : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         // TODO: eðer düþman öldüyse tekrar coroutine çaðrýlmasýn bu yüzden bool tutulabilir eðer çýktýysa vb.
+    }
+
+    private void OnMouseDown()
+    {
+        if (GetComponent<SpriteRenderer>().color == Color.green)
+        {
+            GetComponent<SpriteRenderer>().color = Color.black;
+            GetComponent<AIDestinationSetter>().enabled = false;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = Color.green;
+            GetComponent<AIDestinationSetter>().enabled = true;
+        }
     }
 }

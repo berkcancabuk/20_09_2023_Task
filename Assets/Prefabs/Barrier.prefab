@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 459888830583827594}
   - component: {fileID: 281154351648531523}
   - component: {fileID: 5969869555633852287}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 5166870240744365223}
   - component: {fileID: 3194948382599813202}
   - component: {fileID: -1537073437622551484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barrier
   m_TagString: Barricade
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 5635273253591617741}
   - component: {fileID: 23525087437323661}
   - component: {fileID: 6464370398801171082}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
