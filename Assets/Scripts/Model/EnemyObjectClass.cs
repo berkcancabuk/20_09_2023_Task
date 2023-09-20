@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Pathfinding;
+using TMPro;
 using UnityEngine;
 
 public class EnemyObjectClass : MonoBehaviour
@@ -19,6 +21,20 @@ public class EnemyObjectClass : MonoBehaviour
     }
     public IEnumerator EnemyAttack()
     {
+        yield return new WaitForSeconds(0.5f);
+        if (_soldier.GetComponent<SoldierObjectClass>().soldierHealth <=0)
+        {
+            var soldierObjectClass = _soldier.GetComponent<SoldierObjectClass>();
+            var AIDestiation = _soldier.GetComponent<AIDestinationSetter>();
+            AIDestiation.GetComponent<AIDestinationSetter>().target = null;
+            AIDestiation.GetComponent<AIPath>().enabled = false;
+            AIDestiation.GetComponent<AIDestinationSetter>().enabled = false;
+            
+            _soldier.transform.parent = soldierObjectClass.soldierBarrackObjectView.gameObject.transform;
+            _soldier.transform.localPosition = soldierObjectClass.starPos;
+            _soldier.transform.rotation = Quaternion.Euler(0,0,0);
+            _soldier = null;
+        }
         if (_soldier != null)
         {
             _soldier.GetComponent<SoldierObjectClass>().soldierHealth -= _enemyAttack;
@@ -28,7 +44,7 @@ public class EnemyObjectClass : MonoBehaviour
                 EnemySpawner.instance.InstantiateSpawnPoint();
                 yield break;
             }
-            yield return new WaitForSeconds(3);
+            
             StartCoroutine(EnemyAttack());
         }
         else
@@ -48,7 +64,7 @@ public class EnemyObjectClass : MonoBehaviour
             else
             {
                 _isEnemyFight = false;
-                yield break;
+                
             }
             
         }
@@ -67,10 +83,6 @@ public class EnemyObjectClass : MonoBehaviour
             }
         }
         
-    }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-       
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

@@ -1,7 +1,4 @@
-using System;
 using UnityEngine;
-using System.Collections;
-using UnityEngine.Serialization;
 
 namespace Pathfinding
 {
@@ -22,7 +19,6 @@ namespace Pathfinding
         public Transform target;
 
         public LayerMask layerMask;
-
         IAstarAI ai;
 
         void OnEnable()
@@ -49,11 +45,12 @@ namespace Pathfinding
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit; // RaycastHit2D kullanılacak
 
-            if (!Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, layerMask)) return;
+            if (!Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity,layerMask)) return;
+            transform.parent = null;
             hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity,layerMask);
             target = hit.transform;
+            GetComponent<AIPath>().enabled = true;
             GetComponent<SpriteRenderer>().color = Color.black;
-
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -63,6 +60,7 @@ namespace Pathfinding
             {
                 target = null;
                 GetComponent<AIDestinationSetter>().enabled = false;
+                GetComponent<AIPath>().enabled = false;
             }
         }
     }

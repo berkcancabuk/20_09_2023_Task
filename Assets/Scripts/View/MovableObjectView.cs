@@ -9,18 +9,18 @@ namespace View
     {
         public bool IsClicked { get; set; }
     }
-    
-    public class MovableObjectView: MonoBehaviour 
+
+    public class MovableObjectView : MonoBehaviour
     {
         [SerializeField] public SpriteRenderer spriteRenderer;
         public Color DefaultColor { get; set; }
         public int health;
         public event EventHandler<OnClickedEventArgs> OnClicked = (sender, e) => { };
         public bool isTriggered { get; set; }
-
+        
         public event EventHandler<TriggeredEventArg> OnTriggeredEvent = (sender, e) => { };
         public event EventHandler<MouseMoveEventArg> OnMouseDragEvent = (sender, e) => { };
-        
+
         public int Health
         {
             get => health;
@@ -28,12 +28,13 @@ namespace View
             //SoldierBarrack bir healli clası olmalı
             //transform.GetComponent<EnemyObjectClass>()._enemyHealth = soldierBarrackHealth;
         }
+
         private void Start()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
             DefaultColor = spriteRenderer.color;
         }
-        
+
         private void Update()
         {
             if (health <= 0) Destroy(gameObject);
@@ -41,13 +42,14 @@ namespace View
 
         private void OnMouseDown()
         {
+            
             var onClickedEvent = new OnClickedEventArgs
             {
                 IsClicked = true
             };
             OnClicked(this, onClickedEvent);
         }
-        
+
         private void OnMouseUp()
         {
             var onClickedEvent = new OnClickedEventArgs
@@ -69,38 +71,28 @@ namespace View
             OnMouseDragEvent(this, mouseMoveEventArg);
         }
         
-        
-        private void setObjectPosition(Pointer3D position) {
-            transform.position = new Vector3((int)position.x + .5f, (int)position.y + .5f, -.1f);
-        }
-
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (other.CompareTag("Obstacle"))
+            if(other.CompareTag("TileMap")|| other.CompareTag("Soldier")) return;
+            isTriggered = true;
+            var eventArgs = new TriggeredEventArg
             {
-                isTriggered = true;
-                var eventArgs = new TriggeredEventArg
-                {
-                    IsTriggered = isTriggered
-                };
-                OnTriggeredEvent(this, eventArgs);
-            }
+                IsTriggered = isTriggered
+            };
+            OnTriggeredEvent(this, eventArgs);
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (other.CompareTag("Obstacle"))
+            if(other.CompareTag("TileMap")|| other.CompareTag("Soldier")) return;
+            isTriggered = false;
+            var eventArgs = new TriggeredEventArg
             {
-                isTriggered = false;
-                var eventArgs = new TriggeredEventArg
-                {
-                    IsTriggered = isTriggered
-                };
-                OnTriggeredEvent(this, eventArgs);
-            }
-
+                IsTriggered = isTriggered
+            };
+            OnTriggeredEvent(this, eventArgs);
         }
-        
+
         public void SetToDefaultColor()
         {
             spriteRenderer.color = DefaultColor;
@@ -110,6 +102,5 @@ namespace View
         {
             spriteRenderer.color = color;
         }
-        
     }
 }

@@ -20,18 +20,6 @@ namespace Model
         {
             return BuildingType.PowerPlant;
         }
-
-        
-        public bool Draggable()
-        {
-            return true;
-        }
-
-        public bool Selectable()
-        {
-            return false;
-        }
-
         
     }
 }

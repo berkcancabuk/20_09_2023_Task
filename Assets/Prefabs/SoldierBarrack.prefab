@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2718552380113129402}
   - component: {fileID: 3864370058402934894}
   - component: {fileID: 8604884887774913086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 6812714821410256947}
   - component: {fileID: 530783252050090606}
   - component: {fileID: 3757259259467952692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,13 +250,13 @@ GameObject:
   - component: {fileID: 8932587907671008868}
   - component: {fileID: 5694293125387180831}
   - component: {fileID: 7264763515115376178}
-  - component: {fileID: 1948141261}
-  - component: {fileID: 1948141262}
-  - component: {fileID: 1948141263}
-  - component: {fileID: 4422474339946545502}
-  m_Layer: 0
+  - component: {fileID: 586292537700271361}
+  - component: {fileID: 5506709635053506697}
+  - component: {fileID: 2398105102207922310}
+  - component: {fileID: 1545271544492151414}
+  m_Layer: 6
   m_Name: Soldier1
-  m_TagString: Untagged
+  m_TagString: Soldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -373,24 +373,9 @@ MonoBehaviour:
   soldierCount: 0
   _enemy: {fileID: 0}
   soldierSpawn: {fileID: 0}
---- !u!114 &1948141261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005798103602318996}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  target: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 128
---- !u!114 &1948141262
+  soldierBarrackObjectView: {fileID: 2103232153481283281}
+  starPos: {x: 0, y: 0, z: 0}
+--- !u!114 &586292537700271361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -399,7 +384,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005798103602318996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fe15710d6f8dff4b8aff4217bfbd972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &5506709635053506697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005798103602318996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437766097acaf3046af280a763b3efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
@@ -427,40 +440,29 @@ MonoBehaviour:
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 2
-  endReachedDistance: 0.2
+  endReachedDistance: 1
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!114 &1948141263
+--- !u!114 &2398105102207922310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005798103602318996}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Script: {fileID: 11500000, guid: f2c35bcefd01805429db381ef517bc7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
---- !u!50 &4422474339946545502
+  target: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!50 &1545271544492151414
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -472,13 +474,13 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!1 &2312443408107379958
@@ -492,7 +494,7 @@ GameObject:
   - component: {fileID: 5024268882813743888}
   - component: {fileID: 8916471238626545780}
   - component: {fileID: 1706816645784503460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,13 +632,13 @@ GameObject:
   - component: {fileID: 1961791854364653432}
   - component: {fileID: 5412669359966405242}
   - component: {fileID: 2406558376526602356}
-  - component: {fileID: 7705886110901482017}
-  - component: {fileID: 1192535407523788423}
-  - component: {fileID: 8065687543468152048}
-  - component: {fileID: 2746556449661170628}
-  m_Layer: 0
+  - component: {fileID: 5829753548185288268}
+  - component: {fileID: 3987108793936535181}
+  - component: {fileID: 2625579165520494280}
+  - component: {fileID: 5602323516625904301}
+  m_Layer: 6
   m_Name: Soldier3
-  m_TagString: Untagged
+  m_TagString: Soldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,24 +755,9 @@ MonoBehaviour:
   soldierCount: 0
   _enemy: {fileID: 0}
   soldierSpawn: {fileID: 0}
---- !u!114 &7705886110901482017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3157369987685526328}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  target: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 128
---- !u!114 &1192535407523788423
+  soldierBarrackObjectView: {fileID: 2103232153481283281}
+  starPos: {x: 0, y: 0, z: 0}
+--- !u!114 &5829753548185288268
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -779,7 +766,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 3157369987685526328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fe15710d6f8dff4b8aff4217bfbd972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &3987108793936535181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3157369987685526328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437766097acaf3046af280a763b3efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
@@ -807,40 +822,29 @@ MonoBehaviour:
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 2
-  endReachedDistance: 0.2
+  endReachedDistance: 1
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!114 &8065687543468152048
+--- !u!114 &2625579165520494280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3157369987685526328}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Script: {fileID: 11500000, guid: f2c35bcefd01805429db381ef517bc7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
---- !u!50 &2746556449661170628
+  target: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!50 &5602323516625904301
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -852,13 +856,13 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!1 &3538400568343241761
@@ -873,7 +877,7 @@ GameObject:
   - component: {fileID: 7958022956292429469}
   - component: {fileID: 5480030878199365187}
   - component: {fileID: 4261418793936082046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +978,7 @@ GameObject:
   - component: {fileID: 872430501398124606}
   - component: {fileID: 6685221968049654914}
   - component: {fileID: 2091674672676223102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1075,13 +1079,13 @@ GameObject:
   - component: {fileID: 1504767956373662290}
   - component: {fileID: 6402867829878808212}
   - component: {fileID: 812605903451510659}
-  - component: {fileID: 950560307009763804}
-  - component: {fileID: 2322509884541951268}
-  - component: {fileID: 5389956406692544919}
-  - component: {fileID: 1772224785840559379}
-  m_Layer: 0
+  - component: {fileID: 7910553495395531476}
+  - component: {fileID: 7107184173256865035}
+  - component: {fileID: 8225353547470378802}
+  - component: {fileID: 4005625349413462668}
+  m_Layer: 6
   m_Name: Soldier2
-  m_TagString: Untagged
+  m_TagString: Soldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1198,7 +1202,9 @@ MonoBehaviour:
   soldierCount: 0
   _enemy: {fileID: 0}
   soldierSpawn: {fileID: 0}
---- !u!114 &950560307009763804
+  soldierBarrackObjectView: {fileID: 2103232153481283281}
+  starPos: {x: 0, y: 0, z: 0}
+--- !u!114 &7910553495395531476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1207,7 +1213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3931751490941776758}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Script: {fileID: 11500000, guid: f2c35bcefd01805429db381ef517bc7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
@@ -1215,7 +1221,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 128
---- !u!114 &2322509884541951268
+--- !u!114 &7107184173256865035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1224,7 +1230,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 3931751490941776758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fe15710d6f8dff4b8aff4217bfbd972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &8225353547470378802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3931751490941776758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437766097acaf3046af280a763b3efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
@@ -1252,40 +1286,12 @@ MonoBehaviour:
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 2
-  endReachedDistance: 0.2
+  endReachedDistance: 1
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!114 &5389956406692544919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3931751490941776758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
---- !u!50 &1772224785840559379
+--- !u!50 &4005625349413462668
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -1297,13 +1303,13 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!1 &5539001163668973857
@@ -1317,7 +1323,7 @@ GameObject:
   - component: {fileID: 5307187728109484057}
   - component: {fileID: 5286432129549049729}
   - component: {fileID: 7521437386621390847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TxtName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,7 +1458,7 @@ GameObject:
   - component: {fileID: 821682902805013360}
   - component: {fileID: 9110597256473597992}
   - component: {fileID: 8734128549660366870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1591,7 +1597,7 @@ GameObject:
   - component: {fileID: 5307201713160392751}
   - component: {fileID: 6957895852593309386}
   - component: {fileID: 2103232153481283281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SoldierBarrack
   m_TagString: SoldierBarrack
   m_Icon: {fileID: 0}
@@ -1694,7 +1700,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.98, y: 0.98}
   m_EdgeRadius: 0
 --- !u!50 &6957895852593309386
 Rigidbody2D:
@@ -1704,7 +1710,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7393682400208712487}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1716,7 +1722,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!114 &2103232153481283281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,15 +1732,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 7393682400208712487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a2d9b5b5c7446e8533fb069ac46439, type: 3}
+  m_Script: {fileID: 11500000, guid: fa2bd4e5ee0daac4283dfc6f67859c22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 5875471815625576264}
   health: 5
-  soldiers: []
   level1Text: {fileID: 1706816645784503460}
   level2Text: {fileID: 3757259259467952692}
   level3Text: {fileID: 8734128549660366870}
+  Soldier1: {fileID: 7264763515115376178}
+  Soldier2: {fileID: 812605903451510659}
+  Soldier3: {fileID: 2406558376526602356}
   position: {x: 0, y: 0, z: 0}
 --- !u!1 &8595627773823340717
 GameObject:
@@ -1748,7 +1756,7 @@ GameObject:
   - component: {fileID: 1024267176468408642}
   - component: {fileID: 6976396691704762060}
   - component: {fileID: 2641064934800500927}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1847,7 +1855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 220691192874095488}
   - component: {fileID: 2051114999744573248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}

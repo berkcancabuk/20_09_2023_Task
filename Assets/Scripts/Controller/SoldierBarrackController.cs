@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Assets.Scripts.Controller;
+﻿using System.Threading.Tasks;
 using Assets.Scripts.Model;
 using Model.Interface;
 using UnityEngine;
@@ -33,33 +31,28 @@ namespace Controller
             _model.IsInstantiate = true;
             while (true)
             {
-                await InitializeSoldiers(); // 5 saniyede bir fonksiyonu çağır
-                await Task.Delay(5000); // 5 saniye bekle
+                await InitializeSoldiers(); // 2 saniyede bir fonksiyonu çağır
+                await Task.Delay(250); // 2 saniye bekle
             }
         }
 
         async Task InitializeSoldiers()
         {
-            soldierLevel1Count+=1;
-            soldierLevel2Count+=2;
-            soldierLevel3Count+=3;
-            _objectView.GenerateSoldier(1,soldierLevel1Count);
-            _objectView.GenerateSoldier(2,soldierLevel2Count);
-            _objectView.GenerateSoldier(3,soldierLevel3Count);
+            _objectView.Soldier1Count += 1;
+            _objectView.Soldier2Count += 2;
+            _objectView.Soldier3Count += 3;
+            _objectView.GenerateSoldier(1,_objectView.Soldier1Count);
+            _objectView.GenerateSoldier(2,_objectView.Soldier2Count);
+            _objectView.GenerateSoldier(3,_objectView.Soldier3Count);
             if (_uiManager.buildings[0].UI.activeSelf)
             {
-                _uiManager.OpenSoldierBarrackPanel(soldierLevel1Count, soldierLevel2Count, soldierLevel3Count);
+                _uiManager.OpenSoldierBarrackPanel(_objectView.Soldier1Count, _objectView.Soldier2Count, _objectView.Soldier3Count);
             }
-            await Task.Delay(1000); // Asenkron işlem süresini simüle etmek için bir bekleme ekledik
+            await Task.Delay(250); // Asenkron işlem süresini simüle etmek için bir bekleme ekledik
         }
         private void HandleHealthChanged(object sender, BuildingHealthChangedEventArgs e)
         {
             _objectView.Health = _model.Health;
-        }
-        
-        private void HandleInstantiateChanged(object sender, OnInstantiateSpawnPoint e)
-        {
-            _objectView.OnInstantiateObj();
         }
         private void SyncPosition()
         {
@@ -77,11 +70,7 @@ namespace Controller
             _model.IsSelected = e.IsClicked;
             if (e.IsClicked)
             {
-                _uiManager.OpenSoldierBarrackPanel(soldierLevel1Count, soldierLevel2Count, soldierLevel3Count);
-            }
-            else
-            {
-                _model.IsPositionSetOnce = true;
+                _uiManager.OpenSoldierBarrackPanel(_objectView.Soldier1Count, _objectView.Soldier2Count, _objectView.Soldier3Count);
             }
         }
     }

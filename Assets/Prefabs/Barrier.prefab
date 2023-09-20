@@ -112,9 +112,8 @@ GameObject:
   - component: {fileID: 6492006307689815963}
   - component: {fileID: 6492006307689815962}
   - component: {fileID: 6492006307689815960}
-  - component: {fileID: 5166870240744365223}
-  - component: {fileID: 3194948382599813202}
-  - component: {fileID: -1537073437622551484}
+  - component: {fileID: 6603397415401939354}
+  - component: {fileID: -372338928780279181}
   m_Layer: 6
   m_Name: Barrier
   m_TagString: Barricade
@@ -214,9 +213,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.97, y: 0.97}
   m_EdgeRadius: 0
---- !u!114 &5166870240744365223
+--- !u!114 &6603397415401939354
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,40 +224,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 6492006307689815956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a290917700b774e8ca1543cc1e70a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5020ec2e9f8043e5a1d4151ffb4b333c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3194948382599813202
-MonoBehaviour:
+  spriteRenderer: {fileID: 6492006307689815962}
+  health: 30
+  position: {x: 0, y: 0, z: 0}
+--- !u!50 &-372338928780279181
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6492006307689815956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 665936b6bc3d38042bf0b628e556c960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
-  _spriteRendererStartColor: {r: 0, g: 0, b: 0, a: 0}
-  isTrigger: 0
---- !u!208 &-1537073437622551484
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6492006307689815956}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.1}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7834704708636793453
 GameObject:
   m_ObjectHideFlags: 0

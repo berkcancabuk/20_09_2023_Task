@@ -1,4 +1,5 @@
 using Assets.Scripts.Model;
+using UnityEngine;
 using View;
 using View.Interface;
 
@@ -8,7 +9,7 @@ namespace Controller
     {
         private IClickable _model;
         private IClickableObjectView _view;
-
+        private Pointer3D _firstPosition;
         protected AbstractClickableObjectController(IClickable model,IClickableObjectView view)
         {
             _model = model;
@@ -48,9 +49,17 @@ namespace Controller
             if (e.IsClicked)
             {
                 _view.OnClick();
+                _firstPosition = _model.Position;
             }
             else
             {
+                if (_model.isTriggered)
+                {
+                    _model.Position = _firstPosition;
+                    _view.ChangePosition(_firstPosition);
+                    _model.IsPositionSetOnce = false;
+                    return;
+                }
                 _model.IsPositionSetOnce = true;
             }
         }

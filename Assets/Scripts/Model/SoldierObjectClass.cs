@@ -2,6 +2,9 @@ using System;
 using System.Collections;
 using Pathfinding;
 using UnityEngine;
+using UnityEngine.Serialization;
+using View;
+
 public class SoldierObjectClass : MonoBehaviour
 {
     public int soldierHealth;
@@ -11,39 +14,18 @@ public class SoldierObjectClass : MonoBehaviour
     [SerializeField] private GameObject _enemy;
     [SerializeField] SoldierSpawnPoint soldierSpawn;
     private GameManager gameManager;
+    public SoldierBarrackObjectView soldierBarrackObjectView;
+    public Vector3 starPos;
     private void Awake()
     {
+       
         soldierSpawn = SoldierSpawnPoint.instance;
         gameManager = GameManager.instance;
     }
-    public IEnumerator SoldierAttack()
+
+    private void Start()
     {
-            _enemy.GetComponent<EnemyObjectClass>()._enemyHealth -= soldierPower;
-            if (soldierHealth <= 0)
-            {
-                if (gameManager.soldierLevel == 1 && soldierLevel == 1 )
-                {
-                    soldierSpawn.RepeatingLevel1();
-                }
-                else if (gameManager.soldierLevel == 2 && soldierLevel == 2)
-                {
-                    soldierSpawn.RepeatingLevel2();
-                }
-                else if (gameManager.soldierLevel == 3 && soldierLevel == 3)
-                {
-                    soldierSpawn.RepeatingLevel3();
-                }
-                Destroy(gameObject);
-                yield break;
-            }
-            yield return new WaitForSeconds(3);
-            StartCoroutine(SoldierAttack());
-    }
-   
-  
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        // TODO: eðer düþman öldüyse tekrar coroutine çaðrýlmasýn bu yüzden bool tutulabilir eðer çýktýysa vb.
+        starPos = transform.localPosition;
     }
 
     private void OnMouseDown()

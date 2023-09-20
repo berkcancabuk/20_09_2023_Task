@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: sheet_166
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1403513672, guid: 9d3c90d3c70deae4688b808fcda343e7, type: 3}
+  m_Sprite: {fileID: 2115157173, guid: aed685060d968c34cbdbfa9d063db517, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

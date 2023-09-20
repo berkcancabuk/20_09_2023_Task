@@ -8,7 +8,6 @@ namespace Model
     public class SoldierBarrackModel : BuildingModel, ISoldierBarracks
     {
         private readonly Vector3 _position;
-        private bool _isTriggered { get; set; }
         public SoldierBarrackModel(int health, int attack, Vector3 position) : base(health, attack)
         {
             _position = position;
@@ -21,20 +20,10 @@ namespace Model
         
 
         public bool IsInstantiate { get; set; }
-        
         public override BuildingType GetBuildingType()
         {
             return BuildingType.SoldierBarrack;
         }
 
-        public bool Draggable()
-        {
-            return false;
-        }
-
-        public bool Selectable()
-        {
-            return false;
-        }
     }
 }

@@ -2,6 +2,7 @@
 using UnityEngine;
 using Assets.Scripts.Model;
 using Controller;
+using Model;
 
 namespace Assets.Scripts.Controller.Factory
 {

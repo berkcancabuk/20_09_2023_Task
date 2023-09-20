@@ -11,6 +11,8 @@ TagManager:
   - PowerPlant
   - SoldierBarrack
   - Barricade
+  - Obstacle
+  - TileMap
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Water
   - UI
   - Obstacle
-  - 
+  - enemy
   - 
   - 
   - 

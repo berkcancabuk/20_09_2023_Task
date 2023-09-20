@@ -1,8 +1,8 @@
 ﻿using System;
+using Assets.Scripts.Model;
 using Controller;
-using View.Interface;
 
-namespace Assets.Scripts.Model
+namespace Model
 {
     public class EnemyModel : Warrior, IEnemy
     {
@@ -35,16 +35,6 @@ namespace Assets.Scripts.Model
         public override WarriorType GetWarriorType()
         {
             return WarriorType.Enemy;
-        }
-
-        public bool Movable()
-        {
-            return false;
-        }
-
-        public bool Selectable()
-        {
-            return false;
         }
     }
 }

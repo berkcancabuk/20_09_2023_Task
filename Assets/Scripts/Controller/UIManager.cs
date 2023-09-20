@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Controller.Factory;
 using Controller;
+using Controller.Factory;
 using Model.Interface;
 using UnityEngine;
 using TMPro;
@@ -13,20 +14,20 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance=null;
     public Information Information;
-    private List<float> objectPos = new List<float>();
     public TextMeshProUGUI energyValue;
     public List<Buildings> buildings = new List<Buildings>();
-    public List<Soldiers> soldiers = new List<Soldiers>();
-    public List<GameObject> soldierBarrack = new List<GameObject>();
-    public List<GameObject> powerPlant = new List<GameObject>();
     private IBuildingFactory soldierBarrackFactory;
     private IBuildingFactory powerPlantFactory;
+    private IBuildingFactory barricadeFactory;
     private readonly List<SoldierBarrackController> _soldierBarrackControllers = new();
     private readonly List<PowerPlantController> _powerPlantControllers = new();
+    private readonly List<BarricadeController> _barricadeControllers = new();
+    
     private void Awake()
     {
         soldierBarrackFactory = new SoldierBarrackFactory();
         powerPlantFactory = new PowerPlantFactory();
+        barricadeFactory = new BarricadeFactory();
         
         if (instance != null)
         {
@@ -41,7 +42,7 @@ public class UIManager : MonoBehaviour
 
     public void InstantiateSquareObject(GameObject obj)
     {
-        var middleOfScreen = Vector3.zero;
+        var middleOfScreen = new Vector3(0,0,-0.1f);
         var go = Instantiate(obj, middleOfScreen, Quaternion.identity);
         
        switch (go.tag)
@@ -64,39 +65,18 @@ public class UIManager : MonoBehaviour
                _powerPlantControllers.Add(powerPlantController);
                break;
            } 
-           // case("Barricade"):
-           // {
-           //     
-           //     var barrackBuilding = soldierBarrackFactory.GenerateBuilding(middleOfScreen);
-           //     ISoldierBarrackView soldierBarrackView = go.GetComponent<SoldierBarrackView>();
-           //     SoldierBarrackController soldierBarrackController = new SoldierBarrackController(barrackBuilding as ISoldierBarracks,soldierBarrackView);
-           //     _soldierBarrackControllers.Add(soldierBarrackController);
-           //     break;
-           // } 
+           case("Barricade"):
+           {
+               
+               var barricadeBuilding = barricadeFactory.GenerateBuilding(middleOfScreen);
+               IBarricadeView barricadeView = go.GetComponent<BarricadeView>();
+               BarricadeController barricadeController = new BarricadeController(barricadeBuilding as IBarricade, barricadeView);
+               _barricadeControllers.Add(barricadeController);
+               break;
+           } 
        }
     }
-    public List<float> ObjScale(GameObject GO)
-    {
-        objectPos.Clear();
-        if (GO.transform.localScale.x % 2 == 0 && GO.transform.localScale.y % 2 == 0)
-        {
-            objectPos.Add(3.5f);
-            objectPos.Add(4.5f);
-            return objectPos;
-        }
-        else if (GO.transform.localScale.x %2 != 0 && GO.transform.localScale.y % 2 == 0 || GO.transform.localScale.x % 2 == 0 && GO.transform.localScale.y % 2 != 0)
-        {
-            objectPos.Add(3.5f);
-            objectPos.Add(4f);
-
-            return objectPos;
-        }
-        objectPos.Add(2f);
-        objectPos.Add(2f);
-
-        return objectPos;
-        
-    }
+    
     public void UIObjectPanelClose()
     {
         for (int i = 0; i < buildings.Count; i++)
@@ -123,20 +103,6 @@ public class UIManager : MonoBehaviour
         Information.name.text = buildings[1].name;
         buildings[1].UI.SetActive(true);
     }
-    public void OpenSoldiersPanel(GameObject GO)
-    {
-        UIObjectPanelClose();
-        Information.image.sprite = buildings[2].image;
-        Information.name.text = buildings[2].name;
-        buildings[2].UI.SetActive(true);
-
-        print(GO.name);
-        soldiers[GO.GetComponent<SoldierObjectClass>().soldierLevel - 1].soldiersLevel.text = "Soldiers Level: "+GO.GetComponent<SoldierObjectClass>().soldierLevel;
-        soldiers[GO.GetComponent<SoldierObjectClass>().soldierLevel - 1].soldiersCount.text = "Soldiers Count: " + GO.GetComponent<SoldierObjectClass>().soldierCount;
-        soldiers[GO.GetComponent<SoldierObjectClass>().soldierLevel - 1].soldiersHealth.text = "Soldiers Health: " + GO.GetComponent<SoldierObjectClass>().soldierHealth;
-        soldiers[GO.GetComponent<SoldierObjectClass>().soldierLevel - 1].soldiersAttack.text = "Soldiers Attack: " + GO.GetComponent<SoldierObjectClass>().soldierPower;
-
-    }
     public void OpenEnemyPanel(GameObject GO)
     {
         UIObjectPanelClose();
@@ -145,23 +111,6 @@ public class UIManager : MonoBehaviour
         buildings[3].UI.SetActive(true);
         buildings[3].level1Count.text = "Health : "+GO.GetComponent<EnemyObjectClass>()._enemyHealth;
         buildings[3].level2Count.text = "Power : "+GO.GetComponent<EnemyObjectClass>()._enemyAttack;
-    }
-
-    public void BoughtSoldierBarrack()
-    {
-        // for (int i = 0; i < soldierBarrack.Count; i++)
-        // {
-        //     soldierBarrack[i].transform.GetChild(1).gameObject.SetActive(true);
-        //     soldierBarrack[i].transform.GetComponent<Button>().enabled = false;
-        // }
-    }
-    public void BoughtPowerPlant()
-    {
-        // for (int i = 0; i < powerPlant.Count; i++)
-        // {
-        //     powerPlant[i].transform.GetChild(1).gameObject.SetActive(true);
-        //     powerPlant[i].transform.GetComponent<Button>().enabled = false;
-        // }
     }
     
 }
