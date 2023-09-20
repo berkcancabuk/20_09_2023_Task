@@ -45,6 +45,8 @@
      <Compile Include="Assets\Scripts\Controller\Factory\SoldierLevelOneFactory.cs" />
      <Compile Include="Assets\Scripts\View\Nodes.cs" />
      <Compile Include="Assets\Scripts\Controller\AbstractClickableObjectController.cs" />
+     <Compile Include="Assets\Scripts\Model\BarricadeModel.cs" />
+     <Compile Include="Assets\Scripts\View\BarricadeView.cs" />
      <Compile Include="Assets\Scripts\Model\Interface\ISoldier.cs" />
      <Compile Include="Assets\Scripts\Model\Interface\IPowerPlant.cs" />
      <Compile Include="Assets\Scripts\Controller\GameController.cs" />
@@ -66,6 +68,7 @@
      <Compile Include="Assets\Scripts\Controller\SoldierUpgrade.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\SoldierFactory.cs" />
      <Compile Include="Assets\Scripts\Controller\Exception\InvalidColorTypeException.cs" />
+     <Compile Include="Assets\Scripts\Controller\Factory\BarricadeFactory.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\SoldierLevelTwoFactory.cs" />
      <Compile Include="Assets\Scripts\View\SoldierView.cs" />
      <Compile Include="Assets\Scripts\View\TileListClass.cs" />
@@ -82,10 +85,12 @@
      <Compile Include="Assets\Scripts\View\ScrollControl.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\IWarriorFactory.cs" />
      <Compile Include="Assets\Scripts\View\ObjectTriggerView.cs" />
+     <Compile Include="Assets\Scripts\Controller\BarricadeController.cs" />
      <Compile Include="Assets\Scripts\Model\BuildingModel.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\PowerPlantFactory.cs" />
      <Compile Include="Assets\Scripts\Controller\Exception\InvalidSoldierLevelException.cs" />
      <Compile Include="Assets\Scripts\View\GridManager.cs" />
+     <Compile Include="Assets\Scripts\Model\Interface\IBarricade.cs" />
      <Compile Include="Assets\Scripts\Model\Interface\IEnemy.cs" />
      <Compile Include="Assets\Scripts\Controller\Factory\EnemyFactory.cs" />
      <Compile Include="Assets\Scripts\View\Interface\IClickableObjectView.cs" />
@@ -100,11 +105,6 @@
      <Compile Include="Assets\Scripts\View\EnemyView.cs" />
      <Compile Include="Assets\Scripts\Model\UIObject.cs" />
      <Compile Include="Assets\Scripts\Model\Building.cs" />
-     <Compile Include="Assets\Scripts\Controller\Factory\BarricadeFactory.cs" />
-     <Compile Include="Assets\Scripts\Model\BarricadeModel.cs" />
-     <Compile Include="Assets\Scripts\View\BarricadeView.cs" />
-     <Compile Include="Assets\Scripts\Controller\BarricadeController.cs" />
-     <Compile Include="Assets\Scripts\Model\Interface\IBarricade.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
