@@ -21,7 +21,7 @@ public class EnemyObjectClass : MonoBehaviour
     }
     public IEnumerator EnemyAttack()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(2f);
         if (_soldier.GetComponent<SoldierObjectClass>().soldierHealth <=0)
         {
             var soldierObjectClass = _soldier.GetComponent<SoldierObjectClass>();

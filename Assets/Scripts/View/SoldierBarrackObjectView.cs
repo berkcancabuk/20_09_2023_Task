@@ -79,7 +79,7 @@ namespace View
                     }
                     else
                     {
-                        Soldier1Count = -1;
+                        Soldier1Count = 0;
                     }
                     break;
                 case 2:
@@ -90,7 +90,7 @@ namespace View
                     }
                     else
                     {
-                        Soldier2Count = -1;
+                        Soldier2Count = 0;
                     }
                     break;
                 case 3:
@@ -101,7 +101,7 @@ namespace View
                     }
                     else
                     {
-                        Soldier3Count = -1;
+                        Soldier3Count = 0;
                     }
                     break;
             }
