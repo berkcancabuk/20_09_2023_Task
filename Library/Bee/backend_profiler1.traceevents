@@ -1,550 +1,548 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1695295115122893, "dur":2387, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115125284, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1695295115125355, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1695295115125373, "dur":416, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1695295115125809, "dur":473, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115126282, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597408, "dur":305, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597713, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597720, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597722, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597726, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597727, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597732, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597733, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597737, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597738, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597741, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597742, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597746, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597747, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597750, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597751, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597756, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597757, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597760, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597762, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597766, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597767, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597770, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597771, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597775, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597776, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597781, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597782, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597785, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597787, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597790, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597792, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597795, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597801, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115597807, "dur":6365, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1695295115126254, "dur":33, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115126288, "dur":3334, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115129631, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1695295115129634, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115129694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115132470, "dur":1148, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1695295115133621, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1695295115133637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115133832, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1695295115136693, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1695295115136720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115136731, "dur":20719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1695295115157466, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115157482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115157488, "dur":20580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115178083, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115178104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115178109, "dur":25916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115204041, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115204057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115204062, "dur":26024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115230101, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115230140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115230146, "dur":34416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115264578, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115264598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115264605, "dur":16228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115280850, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115280872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115280880, "dur":23917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115304820, "dur":919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115305743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115305752, "dur":34644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115340409, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115340421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115340426, "dur":22344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115362783, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115362800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1695295115362805, "dur":161754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1695295115524570, "dur":72852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115126390, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115126390, "dur":3235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115129631, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1695295115129693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115132124, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1695295115137481, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1695295115137512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115137518, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1695295115144405, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115144452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115144471, "dur":169361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115313855, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115314633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115314641, "dur":51553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115366209, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115366228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115366235, "dur":43219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1695295115409464, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1695295115409479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1695295115409490, "dur":75295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1695295115484801, "dur":112603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115126427, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115126428, "dur":3198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115129632, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1695295115129726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115138459, "dur":14344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1695295115152816, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115152831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115152844, "dur":18028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115170884, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115170898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115170904, "dur":22511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115193430, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115193448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115193456, "dur":30707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115224177, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115224202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115224208, "dur":30827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115255051, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115255068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115255075, "dur":20015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115275106, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115275124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115275133, "dur":40633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115315788, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115316181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115316185, "dur":44857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115361064, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115361079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115361107, "dur":118820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1695295115479942, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1695295115479961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1695295115479969, "dur":9119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1695295115489098, "dur":108321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115126274, "dur":16, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115126290, "dur":3340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115129631, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1695295115129700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115133906, "dur":17012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1695295115150934, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115150956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115151248, "dur":15102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115166368, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115166390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115166397, "dur":22796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115189211, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115189229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115189236, "dur":20522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115209769, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115209804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115209809, "dur":24807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115234636, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115234653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115234657, "dur":35404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115270076, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115270093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115270097, "dur":25051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115295163, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115295503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115295508, "dur":20314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115315835, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115316158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115316164, "dur":27646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115343827, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115343849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115343856, "dur":50468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115394345, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115394363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115394370, "dur":71790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1695295115466174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1695295115466188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1695295115466193, "dur":23111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1695295115489316, "dur":108093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115126316, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115126317, "dur":3311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115129636, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1695295115129712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115135592, "dur":5762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1695295115141367, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115141406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115141682, "dur":57044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115198742, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115198798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115198803, "dur":22183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115220997, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115221013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115221016, "dur":23470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115244508, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115244533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115244538, "dur":38312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115282868, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115283464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115283472, "dur":52354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115335843, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115335862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115335870, "dur":47926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115383813, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115383830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115383838, "dur":96084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1695295115479942, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1695295115479967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1695295115479972, "dur":6836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1695295115486824, "dur":110593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115126348, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115126348, "dur":3306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115129654, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1695295115129720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115137463, "dur":10679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1695295115148158, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas.exe" }}
-,{ "pid":12345, "tid":6, "ts":1695295115148174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115148178, "dur":45518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas.exe" }}
-,{ "pid":12345, "tid":6, "ts":1695295115193709, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115193737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115193742, "dur":15998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115209760, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115209801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115209807, "dur":28723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115238549, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115238567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115238574, "dur":17687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115256277, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115256292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115256297, "dur":21592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115277909, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115277925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115277932, "dur":20450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115298400, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115299080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115299085, "dur":50220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115349318, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115349335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115349342, "dur":36229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115385584, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115385598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1695295115385603, "dur":173968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1695295115559585, "dur":37829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115126398, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115126398, "dur":3245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115129644, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1695295115129702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115134902, "dur":6319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1695295115141237, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1695295115141267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115141275, "dur":23692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1695295115164987, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115165008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115165035, "dur":17449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115182501, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115182518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115182525, "dur":21352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115203894, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115203912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115203920, "dur":24891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115228826, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115228841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115228845, "dur":27073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115255932, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115255947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115255952, "dur":20101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115276069, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115276086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115276092, "dur":22311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115298421, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115298911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115298919, "dur":30663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115329600, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115330171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115330181, "dur":32495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115362694, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115362710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1695295115362717, "dur":234646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1695295115597377, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1695295115597379, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115126463, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115126464, "dur":3171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115129640, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1695295115129713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115136496, "dur":11230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1695295115147740, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1695295115147789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115147793, "dur":95078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1695295115242892, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115242924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115242931, "dur":20395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115263346, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115263363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115263370, "dur":90811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115354199, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115354220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115354226, "dur":23125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115377367, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115377385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115377392, "dur":44462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1695295115421873, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1695295115421887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1695295115421892, "dur":63425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1695295115485327, "dur":112078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115126496, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115126496, "dur":3128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115129631, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1695295115129955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115155187, "dur":22647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1695295115177853, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115177885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115177892, "dur":20889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115198798, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115198819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115198823, "dur":25319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115224160, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115224183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115224191, "dur":25958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115250167, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115250184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115250194, "dur":19848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115270068, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115270086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115270094, "dur":17211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115287319, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115287828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115287833, "dur":48374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115336220, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115336236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1695295115336240, "dur":179806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1695295115516058, "dur":81357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115126536, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115126536, "dur":3106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115129643, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1695295115129743, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115144476, "dur":14871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1695295115159359, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115159384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115159388, "dur":18673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115178073, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115178090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115178095, "dur":20610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115198719, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115198736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115198742, "dur":52659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115251420, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115251439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115251446, "dur":18966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115270428, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115270446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115270451, "dur":21943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115292412, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115293380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115293389, "dur":50534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115343936, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115343957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115343987, "dur":108437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1695295115452435, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1695295115452776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1695295115452781, "dur":31168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1695295115483965, "dur":113441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115126661, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115126661, "dur":2977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115129641, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1695295115129745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115142179, "dur":12711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1695295115154904, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115154923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115154930, "dur":23147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115178093, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115178109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115178114, "dur":20566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115198698, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115198719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115198727, "dur":21830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115220574, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115220590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115220598, "dur":23881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115244504, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115244528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115244535, "dur":22754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115267308, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115267357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115267365, "dur":17587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115284966, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115285388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115285396, "dur":29104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115314517, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115315019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115315025, "dur":34292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115349332, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115349351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115349356, "dur":34919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115384289, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115384304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115384309, "dur":46882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1695295115431204, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":11, "ts":1695295115431219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115431224, "dur":50400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":11, "ts":1695295115481638, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1695295115481652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1695295115481658, "dur":9003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1695295115490673, "dur":106743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115126696, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115126696, "dur":2941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115129637, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1695295115129731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115141019, "dur":9312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1695295115150341, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115150364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115151288, "dur":17674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115168980, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115169001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115169009, "dur":24396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115193423, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115194015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115194020, "dur":45558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115239593, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115239610, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115239671, "dur":21787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115261478, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115261491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115261496, "dur":23940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115285451, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115285851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115285856, "dur":39774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115325644, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115326033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115326064, "dur":30152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115356233, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115356249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115356255, "dur":27984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115384252, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115384756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115384761, "dur":64936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
-,{ "pid":12345, "tid":12, "ts":1695295115449711, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":12, "ts":1695295115450155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115450160, "dur":33349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":12, "ts":1695295115483522, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/boot.config" }}
-,{ "pid":12345, "tid":12, "ts":1695295115483914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1695295115483920, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/boot.config" }}
-,{ "pid":12345, "tid":12, "ts":1695295115488690, "dur":108735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115126729, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115126729, "dur":2911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115129641, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1695295115129747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115149729, "dur":9611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1695295115159353, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115159367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115159372, "dur":21499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115180889, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115180904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115180910, "dur":28812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115209751, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115209769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115209778, "dur":24835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115234630, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115234648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115234656, "dur":18886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115253561, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115253596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115253604, "dur":17508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115271128, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115271145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115271150, "dur":22406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115293571, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115293902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115293908, "dur":27799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115321722, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115322197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115322202, "dur":31991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115354206, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115354220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115354226, "dur":40898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115395140, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/AstarPathfindingProject.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115395717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115395724, "dur":84425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/AstarPathfindingProject.dll" }}
-,{ "pid":12345, "tid":13, "ts":1695295115480162, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":13, "ts":1695295115480200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1695295115480205, "dur":7425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":13, "ts":1695295115487643, "dur":109765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115126761, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115126762, "dur":2876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115129640, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1695295115129695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115133189, "dur":16998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1695295115150204, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1695295115150235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115151183, "dur":15239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1695295115166439, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115166460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115166465, "dur":22983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115189461, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115189493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115189497, "dur":20208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115209723, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115209746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115209753, "dur":29828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115239596, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115239666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115239671, "dur":20383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115260069, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115260081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115260088, "dur":24831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115284933, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115285664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115285670, "dur":62251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115347937, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115347952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115347957, "dur":23142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115371115, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115371133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1695295115371141, "dur":134068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1695295115505220, "dur":92192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115126792, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115126792, "dur":2837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115129631, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1695295115129749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115151067, "dur":20846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1695295115171927, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115171943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115171948, "dur":17547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115189506, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115189519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115189523, "dur":71947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115261483, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115261496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115261499, "dur":19339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115280853, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115281307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115281313, "dur":17171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115298497, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115298994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115299000, "dur":44819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115343835, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115343854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115343860, "dur":65445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115409317, "dur":53675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115462997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1695295115481188, "dur":14903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":15, "ts":1695295115496103, "dur":101320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115126844, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115126844, "dur":2787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115129634, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1695295115129730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115139701, "dur":6792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1695295115146508, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1695295115146548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115146553, "dur":251575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1695295115398149, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":16, "ts":1695295115398808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1695295115398817, "dur":94366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Desktop/PanteonTas_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":16, "ts":1695295115493195, "dur":104215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1695295115607858, "dur":1658, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1695295305659721, "dur":2293, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295305662018, "dur":66, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1695295305662095, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1695295305662114, "dur":453, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1695295305662595, "dur":480, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295305663075, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306095894, "dur":313, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096207, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096220, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096222, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096230, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096231, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096244, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096245, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096248, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096249, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096253, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096254, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096259, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096260, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096264, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096265, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096274, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096278, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096279, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096282, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096283, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096287, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096288, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096291, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096292, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096296, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096297, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096300, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096302, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096306, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096320, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306096327, "dur":8320, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1695295305663100, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305663100, "dur":3921, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305667029, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1695295305667032, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305667092, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1695295305667096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305674233, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1695295305677198, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1695295305677232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305677237, "dur":6509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1695295305683762, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695295305683784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305683788, "dur":38150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695295305721955, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305721971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305721974, "dur":67190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305789176, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305789188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305789195, "dur":17460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305806669, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305807301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305807330, "dur":49217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305856561, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305856579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305856586, "dur":29063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305885672, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295305885689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695295305885693, "dur":178840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695295306064546, "dur":31349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305663192, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305663192, "dur":3837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305667030, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695295305667104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305684596, "dur":18827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695295305703435, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305703453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305703456, "dur":20929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305724401, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305724424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305724430, "dur":19581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305744031, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305744055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305744062, "dur":20688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305764766, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305764861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305764866, "dur":34470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305799350, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305799816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305799822, "dur":33554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305833386, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305833702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305833707, "dur":31981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305865706, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295305865725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695295305865733, "dur":230112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695295306095860, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1695295306095862, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305663240, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305663241, "dur":3792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305667033, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1695295305667098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305678345, "dur":10513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1695295305688878, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305688900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305689625, "dur":14922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305704560, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305704581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305704587, "dur":18323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305722922, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305722938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305722944, "dur":16628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305739586, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305739601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305739607, "dur":21972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305761590, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305761605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305761609, "dur":13588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305775210, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305775223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305775228, "dur":19642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305794887, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305795378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305795384, "dur":44513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305839917, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295305839945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695295305839952, "dur":181711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695295306021675, "dur":74223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305663294, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305663295, "dur":3728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305667030, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695295305667095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305673297, "dur":4641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695295305677951, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305677973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305678197, "dur":26357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305704568, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305704584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305704588, "dur":18301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305722904, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305723445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305723450, "dur":41289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305764755, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305764841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305764848, "dur":21014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305785880, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305785900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305785905, "dur":19634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305805554, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305805573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305805579, "dur":27348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305832940, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305833306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305833313, "dur":28384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305861710, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305861734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695295305861740, "dur":120997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695295305982747, "dur":113145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305663118, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305663118, "dur":3906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305667031, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695295305667100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305679767, "dur":14687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695295305694475, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305694495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305694503, "dur":18818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305713335, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305713351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305713359, "dur":19246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305732620, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305732636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305732664, "dur":21666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305754346, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305754361, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305754365, "dur":21779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305776175, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305776192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305776199, "dur":17573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305793785, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305793806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305793811, "dur":30559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305824386, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305824856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305824864, "dur":35409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305860285, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305860297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305860302, "dur":24997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305885325, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305885355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305885360, "dur":56708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695295305942078, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695295305942397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305942402, "dur":30406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695295305972820, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1695295305972833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695295305972838, "dur":13578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1695295305986431, "dur":109470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305663155, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305663155, "dur":3879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305667035, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1695295305667086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305669245, "dur":6192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1695295305675457, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1695295305675474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305675488, "dur":22239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1695295305697744, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305697766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305697772, "dur":19847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305717634, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305717651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305717657, "dur":15253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305732919, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305732941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305732948, "dur":21309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305754275, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305754295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305754301, "dur":39351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305793668, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305793688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305793694, "dur":18789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305812497, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305812510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305812515, "dur":40613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305853148, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305853169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305853177, "dur":113052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695295305966248, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695295305966269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695295305966275, "dur":16366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695295305982657, "dur":113234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305663201, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305663202, "dur":3832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305667034, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1695295305667107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305686135, "dur":15776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1695295305701933, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305701962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305701970, "dur":19064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305721049, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305721061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305721066, "dur":17561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305738639, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305738654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305738658, "dur":26118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305764868, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305764884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305764891, "dur":20124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305785029, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305785049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305785054, "dur":18445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305803512, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305804237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305804241, "dur":54209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305858466, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305858481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305858486, "dur":31115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305889616, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305890221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695295305890226, "dur":97531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695295305987773, "dur":108143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305663264, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305663265, "dur":3762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305667030, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1695295305667086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305669644, "dur":16240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1695295305685908, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1695295305685930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305686415, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1695295305696718, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305696736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305696743, "dur":18038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305714799, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305714818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305714822, "dur":23788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305738629, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305738647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305738655, "dur":15580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305754256, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305754274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305754282, "dur":19709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305774005, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305774020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305774025, "dur":25318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305799356, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305799974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305799979, "dur":47702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305847702, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305847729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305847740, "dur":41870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305889625, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305890031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305890037, "dur":51321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695295305941375, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695295305941389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305941395, "dur":33680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695295305975091, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1695295305975108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695295305975112, "dur":13665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1695295305988787, "dur":107117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305663310, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305663310, "dur":3715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305667031, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1695295305667093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305672244, "dur":5530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1695295305677791, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1695295305677806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305677811, "dur":24651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1695295305702479, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305702496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305702501, "dur":18639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305721152, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305721171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305721175, "dur":17493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305738684, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305738702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305738707, "dur":21445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305760165, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305760180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305760185, "dur":18010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305778215, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305778235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305778243, "dur":87475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305865735, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295305865754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695295305865761, "dur":157227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695295306023000, "dur":72896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305663360, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305663360, "dur":3662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305667030, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1695295305667088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305671551, "dur":10357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1695295305681922, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305681940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305681951, "dur":62841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305744812, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305744966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305744974, "dur":19798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305764856, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305764873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305764877, "dur":28005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305792903, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305792923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305792929, "dur":20561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305813507, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305813524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305813531, "dur":32232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305845780, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305845796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305845804, "dur":24008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305869827, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295305869842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695295305869847, "dur":137342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695295306007203, "dur":88711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305663394, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305663394, "dur":3632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305667030, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1695295305667095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305674861, "dur":10803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1695295305685690, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas.exe" }}
+,{ "pid":12345, "tid":11, "ts":1695295305685717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305685724, "dur":43010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas.exe" }}
+,{ "pid":12345, "tid":11, "ts":1695295305728749, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305728767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305728774, "dur":38722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305767515, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305767538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305767545, "dur":25331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305792895, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305792914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305792922, "dur":38213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305831153, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305831554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305831559, "dur":26882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305858462, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305858479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305858486, "dur":22821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305881326, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305881343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305881350, "dur":85972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695295305967337, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695295305967357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695295305967380, "dur":11450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695295305978841, "dur":117053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305663424, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305663424, "dur":3604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305667030, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1695295305667097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305677195, "dur":5539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1695295305682748, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305682787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305682791, "dur":90981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305773793, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305773812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305773820, "dur":22871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305796704, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305797257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305797280, "dur":51846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305849138, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305849151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305849156, "dur":65979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1695295305915157, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1695295305915174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305915190, "dur":62656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1695295305977863, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1695295305978280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695295305978286, "dur":9498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1695295305987796, "dur":108110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305663456, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305663456, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305667032, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1695295305667087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305670691, "dur":18253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1695295305688963, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305688989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305692141, "dur":16123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305708279, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305708293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305708299, "dur":18209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305726527, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305726544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305726552, "dur":18414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305744987, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305745010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305745016, "dur":23797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305768823, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305768837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305768843, "dur":17007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305785867, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305785883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305785889, "dur":24272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305810175, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305810188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305810194, "dur":28294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305838504, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305838521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305838528, "dur":49909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305888452, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305888466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695295305888472, "dur":106510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695295305994996, "dur":100915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305663491, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305663492, "dur":3551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305667043, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1695295305667096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305675865, "dur":12576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1695295305688474, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305688506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305689189, "dur":20994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305710195, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305710210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305710216, "dur":20613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305730845, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305730863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305730871, "dur":21047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305751929, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305751943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305751949, "dur":33063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305785029, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305785046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305785054, "dur":18459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305803530, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305803904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305803910, "dur":17207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305821132, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305821578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305821585, "dur":33958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305855560, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305855584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305855592, "dur":29656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305885277, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305885312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305885326, "dur":63500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695295305948844, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1695295305949286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305949293, "dur":25678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1695295305974990, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695295305975008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695295305975016, "dur":11418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695295305986448, "dur":109442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305663519, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305663520, "dur":3510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305667034, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1695295305667103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305681156, "dur":12320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1695295305693496, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305693517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305693579, "dur":19738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305713334, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305713355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305713360, "dur":18314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305731687, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305731701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305731706, "dur":27752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305759475, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305759493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305759500, "dur":14474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305773987, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305774004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305774009, "dur":19832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305793855, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305794189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305794194, "dur":21624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305815832, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305815846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305815851, "dur":53930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305869796, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305869814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305869822, "dur":29640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305899480, "dur":59417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305958902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695295305972145, "dur":17681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695295305989838, "dur":106065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305663570, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305663570, "dur":3461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305667031, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1695295305667117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305689315, "dur":20433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1695295305709765, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305709787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305709795, "dur":21204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305731012, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305731032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305731037, "dur":18756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305749811, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305749835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305749841, "dur":28505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305778360, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305778376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305778381, "dur":20020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305798420, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305798439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305798446, "dur":26472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305824930, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305825266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305825291, "dur":27841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305853152, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305853169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305853177, "dur":16641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305869833, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305869848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305869853, "dur":60068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695295305929937, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695295305929954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695295305929960, "dur":54154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/berkcan.cabuk/Pat/PanteonTas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695295305984126, "dur":111787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695295306112269, "dur":1917, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
